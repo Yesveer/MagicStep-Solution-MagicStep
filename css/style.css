@@ -1,0 +1,329 @@
+.fynd {
+  padding-left: 100px;
+}
+
+.home {
+  padding-left: 50px;
+}
+
+.first {
+  padding-top: 70px;
+  padding-left: 110px;
+}
+
+.second {
+    padding-left: 110px;
+}
+
+.pay {
+  padding-left: 110px;
+  padding-top: 50px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.image {
+  margin-top: 30px;
+  width: 565px;
+  height: 410px;
+  border-radius: 15px;
+}
+
+.image1 {
+  margin-top: 30px;
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.image2 {
+  margin-top: 30px;
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.new2 {
+  padding-left: 20px;
+}
+
+.ele2 {
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.step1 {
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #2ECC71;
+  padding: 60px 30px 50px 30px;
+  color: white;
+}
+
+.ele3 {
+  margin-left: 450px;
+}
+
+.ele {
+  margin-left: -20px;
+}
+
+.googlep {
+  margin-left: 10px;
+}
+
+.btn {
+  margin-top: 30px;
+}
+
+.main-section {
+  margin-top: 60px;
+  padding: 60px 40px 40px 40px;
+}
+
+.card1 {
+  margin-left: 60px;
+  margin-top: 30px;
+  height: 530px;
+  width: 320px;
+  margin-bottom: -50px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 4px 2px #00000040;
+}
+
+.bi-check-circle {
+  color: green;
+  padding-left: 10px;
+}
+
+.bi-x-circle {
+  color: red;
+  padding-left: 10px;
+}
+
+.font {
+  font-size: 20px;
+}
+
+.size {
+  margin-left: -10px;
+}
+
+.checkbox {
+  padding-left: 5px;
+  padding-top: 20px;
+}
+
+.step2 {
+  margin-left: 30px;
+}
+
+.cent {
+  margin-top: 40px;
+}
+
+@media (max-width:992px) {
+  .fynd {
+    padding-left: 20px;
+  }
+
+  .first {
+    margin-left: -70px;
+  }
+
+  .second {
+    margin-left: -70px;
+  }
+
+  .pay {
+    margin-left: -70px;
+  }
+
+  .third {
+    margin-top: -120px;
+  }
+
+  .row1 {
+    width: 310px;
+  }
+
+  .second {
+    display: table;
+  }
+
+  .row2 {
+    display: table-header-group;
+  }
+
+  .row3 {
+    display: table-footer-group;
+  }
+
+  .home {
+    margin-left: -30px;
+  }
+
+  .image {
+    margin-top: 30px;
+    width: 310px;
+    height: 250px;
+    border-radius: 15px;
+  }
+
+  .image1 {
+    margin-top: 30px;
+    width: 310px;
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .image2 {
+    margin-top: 30px;
+    width: 310px;
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .step1 {
+    margin-left: -60px;
+    margin-bottom: 20px;
+  }
+
+  .step2 {
+    margin-left: -60px;
+    margin-bottom: 20px;
+  }
+
+  .step3 {
+    margin-left: -110px;
+    margin-bottom: 20px;
+  }
+
+  .ele2 {
+    margin-left: -70px;
+  }
+
+  .card1 {
+    margin-top: 20px;
+  }
+
+  .ele {
+    margin-left: -20px;
+  }
+
+  .ele3 {
+    margin-left: 70px;
+  }
+
+  .btn {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .new {
+    margin-top: 50px;
+  }
+
+  .mid {
+    margin-left: -60px;
+  }
+
+  .font {
+    font-size: 18px;
+  }
+
+  .fourth {
+    margin-left: -60px;
+  }
+
+  .margin {
+    margin-top: 5px;
+  }
+
+  .size5 {
+    margin-left: -50px;
+  }
+}
+
+/* Animations */
+.anim1 {
+  position: relative;
+  animation: move1 2s 1;
+}
+
+@keyframes move1 {
+  from {
+    left: -200px;
+  }
+
+  to {
+    left: 0;
+  }
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.anim2 {
+  position: relative;
+  animation: move2 3s 1;
+}
+
+@keyframes move2 {
+  from {
+    bottom: -100px;
+  }
+
+  to {
+    bottom: 0;
+  }
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.anim3 {
+  position: relative;
+  animation: move3 4s 1;
+}
+
+@keyframes move3 {
+  from {
+    bottom: -300px;
+  }
+
+  to {
+    bottom: 0;
+  }
+
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
